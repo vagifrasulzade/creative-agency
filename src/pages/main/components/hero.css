@@ -1,0 +1,240 @@
+.hero {
+  padding: 80px 0;
+  background: #0D0D0D;
+  color: #ffffff;
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  color: #525252;
+  line-height: 1.6;
+  
+}
+
+.btn-primary {
+  background-color: #ffffff;
+  color: #1a1a1a;
+  padding: 15px 40px;
+  border: none;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.btn-primary:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgb(27,48,88);
+
+}
+
+
+
+
+.hero-image {
+  position: relative;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: 20px;
+  overflow: visible;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+}
+
+
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+
+
+
+
+.project-badge {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  transform: translateY(-50%) translateX(-60%);
+  background-color: #0D0D0D;
+  padding: 14px 20px;
+  border-radius: 16px;
+  text-align: left;
+  z-index: 10;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  line-height: 1.5;
+}
+
+.badge-title {
+  color: #525252; 
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.badge-count {
+  color: #ffffff; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
+.testimonial-box {
+  position: absolute;
+  bottom: 11%;
+  right: -30%;
+  background-color: #0D0D0D;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  width:250px;
+  z-index: 10;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(50%); 
+}
+
+
+.testimonial-avatar {
+    
+  object-fit:contain;      
+
+}
+img.testimonial-avatar {
+  display: flex;
+  width: 60px;
+}
+
+.testimonial-content {
+  display: block;
+  flex-direction: column;
+}
+
+.testimonial-name {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+.testimonial-role {
+  font-size: 12px;
+  color: #525252;
+  margin-bottom: 8px;
+  
+}
+
+.testimonial-text {
+  font-size: 13px;
+  line-height: 1.5;
+  color: #dddddd;
+  text-align: center;
+}
+
+
+
+.hero-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+
+.circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  opacity: 0.3;
+}
+
+.circle.blue {
+  background-color: #377DFF;
+}
+
+.circle.red {
+  background-color: #F62424;
+}
+
+/* Circle blue */
+.top-left {
+  top: 190px;
+  left: 30px;
+}
+
+/* Circle red */
+.middle-left {
+  top: 550px;
+  left: 250px;
+}
+
+/* Circle blue */
+.top-right {
+  top: 360px;
+  right: 100px;
+}
+
+.dots {
+  position: absolute;
+  width: 70px;
+  height: 12px;
+  background-size: 12px 14px;
+  opacity: 1;
+}
+.dots.white {
+  background-image: radial-gradient(white 50%, transparent 40%);
+}
+
+.dots.red {
+  background-image: radial-gradient(#F62424 50%, transparent 40%);
+}
+
+
+.middle-top {
+  top: 350px;
+  left: 430px;
+}
+
+.bottom-left {
+  bottom: -15px;
+  left: 500px;
+}
+
+.hero-container {
+  position: relative; 
+  z-index: 2;
+}
