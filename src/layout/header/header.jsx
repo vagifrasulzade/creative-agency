@@ -6,7 +6,7 @@ export default function Header() {
       <header className="header">
         <div className="logo">
           <a href="/">
-            <img src="/logo.png" alt="logo" />
+            <img src="/logo.png" alt="" />
           </a>
         </div>
         <nav className="nav-menu">
@@ -26,9 +26,17 @@ export default function Header() {
           </ul>
         </nav>
         <div className="btn-collection">
-
+          <div className="auth-btn">
+            <a href="/auth/login">Login</a>
+          </div>
+          <div className="auth-btn">
+            <a href="/auth/register">Register</a>
+          </div>
           <div className="nav-btn">
-            <button className="btn btn-transparent">Contact</button>
+            <button className="btn btn-transparent">
+              Contact
+              
+            </button>
           </div>
         </div>
       </header>
