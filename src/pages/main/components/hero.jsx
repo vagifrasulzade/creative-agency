@@ -1,10 +1,9 @@
 import "./hero.css";
 export default function Hero() {
   return (
-    <div>
+    <div className="hero">
       <section>
         <div className="hero-container">
-
           <div className="hero-background">
             <span className="circle blue top-left"></span>
             <span className="circle red middle-left"></span>
@@ -13,17 +12,17 @@ export default function Hero() {
             <span className="circle blue top-right"></span>
           </div>
 
-
           <div className="hero-text">
             <h1 className="hero-title">
-              Make your dream 
-              <br/>
-              business goal come true </h1>
+              Make your dream
+              <br />
+              business goal come true
+            </h1>
             <p className="hero-description">
-            when you need us to improve your business, <br />
-            then come to us and we’ll help you achieve your goals. Just sit back and watch it happen.
+              when you need us to improve your business, <br />
+              then come to us and we'll help you achieve your goals. Just sit
+              back and watch it happen.
             </p>
-
             <button className="btn-primary">Get Started</button>
           </div>
 
@@ -36,22 +35,25 @@ export default function Hero() {
             </div>
 
             <div className="testimonial-box">
-              <img className="testimonial-avatar" src="/ceo.jpg" alt="Bill Adams" />
+              <div className="testimonial-avatar-wrapper">
+                <img
+                  className="testimonial-avatar"
+                  src="/ceo.jpg"
+                  alt="Bill Adams"
+                />
+                <div className="testimonial-avatar-content">
+                  <div className="testimonial-name">Bill Adams</div>
+                  <div className="testimonial-role">CEO UpTech</div>
+                </div>
+              </div>
               <div className="testimonial-content">
-                <div className="testimonial-name">Bill Adams</div>
-                <div className="testimonial-role">CEO UpTeach</div>
                 <p className="testimonial-text">
-                  “ This team is really the best in its field. I don’t regret working with them,
-                  and will come back again thanks ”
+                  "This team is really the best in its field. I don't regret
+                  working with them, and will come back again thanks"
                 </p>
               </div>
             </div>
           </div>
-          
-          
-          
-
-
         </div>
       </section>
     </div>
